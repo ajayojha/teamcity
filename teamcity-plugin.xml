@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
+  <info>
+    <name>zt-teamcity</name>
+    <display-name>ZeroThreat AI DAST Scanner</display-name>
+    <version>@Version@</version>
+    <description>Scan for security issues in web applications/APIs</description>
+    <download-url>Plugin download URL</download-url>
+    <email>hello@zerothreat.ai</email>
+    <vendor>
+      <name>@VendorName@</name>
+      <url>@VendorURL@</url>
+      <logo>https://zt-bucket.s3.ap-south-1.amazonaws.com/zt_logo.svg</logo>
+    </vendor>
+  </info>
+  <deployment use-separate-classloader="false"/>
+</teamcity-plugin>
